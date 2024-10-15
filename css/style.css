@@ -23,7 +23,8 @@ body {
 	color: #9b9b9b;
 	position: relative;
 	min-width: 960px;
-	background: url(../images/bg_body.png) 0 0 repeat #2a2524;
+	background: url(../images/panel.jpg) 0 0 repeat #2a2524;
+	background-size: contain;
 
 }
 
@@ -262,6 +263,9 @@ a.btn:hover {
 }
 .center {
 	text-align: center;
+	margin: auto;
+	width: 100%;
+	padding: 10px;
 }
 .wrapper, .extra_wrapper {
 	overflow: hidden;
